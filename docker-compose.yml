@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  spotify_python:
+    build: .
+    environment: 
+      - INTERVAL_SECONDS=5
+    volumes:
+      - spotify_json:/json_data_mount
+volumes:
+  spotify_json: 
