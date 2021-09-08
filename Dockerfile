@@ -23,7 +23,7 @@ ENV PYTHONUNBUFFERED=1
 
 # Spotify Web API credentials 
 # (I revoked mine but kept example values, you have to insert your own here)
-ENV CLIENT_ID 'a897fa14ae6c4bf6a524d279c2f95e01'
-ENV CLIENT_SECRET '8bd07597568a4d548d57715dd248b35a'
+ENV CLIENT_ID 'yourclientid'
+ENV CLIENT_SECRET 'yourclientsecret'
 
 CMD ["python3", "./src/get_artist_data.py"]
